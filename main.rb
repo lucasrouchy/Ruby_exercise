@@ -15,7 +15,10 @@ class Button
         @foreground_color = foreground_color
     end
 
-    
+    def dark_mode(label_text, x, y, foreground_color)
+        paint(label_text, x, y, foreground_color - 10, '#111111')
+    end
+  
 
 
     
